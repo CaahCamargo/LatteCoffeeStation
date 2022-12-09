@@ -12,7 +12,6 @@
     <div class="textHero">
         <h3 class="primaryTitle">Latte Coffee Station</h3>
         <p>De quem <span>entende</span> para quem <span>ama</span> café</p>
-        <a class="btn" href="{{route('box.create')}}">Criar Meu Box Exclusivo</a>
     </div>
 </section>
 <section class="AboutCoffee">
