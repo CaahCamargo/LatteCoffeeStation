@@ -1,0 +1,235 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0rem 2rem;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    height: 6rem;
+}
+
+.primaryTitle{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    display: flex;
+}
+
+.optionsMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.optionsMenu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+} 
+
+.optionsMenu a:hover{
+    text-decoration:underline #46170f;
+}
+
+.btnLogin{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 0px;
+    background: #46170f;
+    color: white;
+    font-weight: 800;
+}
+
+.btnLogin:hover{
+    background: #46170fe0;
+}
+
+.btnLogin i{
+    color: white;
+}
+
+/*Hero*/
+
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero .primaryTitle{
+    font-size: 50px;
+}
+
+.Hero span{
+    /* font-family: 'Shadows Into Light', cursive; */
+    color: #46170f;
+}
+
+.textHero{
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/*About Coffee*/
+.AboutCoffee{
+    margin: 3rem;
+}
+
+.gridCardsCoffee{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.imgCardsCoffee{
+    width: 200px;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 0 0 10px grey;
+}
+
+.cardsCoffee{
+    width: 200px;
+    margin: 1rem;
+}
+
+/*Torrefacao*/
+
+.Torrefacao{
+    margin-top: 12rem;
+    padding: 3rem;
+    text-align: justify;
+    background-image: linear-gradient(rgb(30 26 26 / 0%), rgb(0 0 0 / 88%)), url(/images/graos.jpg);;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.Torrefacao img{
+    border-radius: 12px;
+}
+
+.Torrefacao span{
+    color: #46170f;
+}
+
+.AboutTorrefacao{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1rem;
+}
+
+.AboutTorrefacao div{
+    width: 300px;
+    align-items: center;
+    justify-self: center;
+}
+
+.AboutTorrefacao h6{
+    align-items: center;
+}
+
+/*Brinde*/
+
+.ToastFriends{
+    display: flex;
+    margin: 3rem;
+    padding: 12rem;
+    align-items: center;
+}
+
+.ToastFriends img{
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+}
+
+.textToastFriends{
+    text-align: justify;
+    margin-right: 3rem;
+}
+
+/* Conheça nossos Planos */
+
+.OurPlans{
+    padding: 3rem;
+    background: #d4bca2;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.aboutPlans{
+    display: grid;
+    padding: 1rem 12rem;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    justify-items: center;
+}
+
+.aboutPlans div{
+    margin-left: 3rem;
+    text-align: justify;
+    text-align-last: center;
+    width: 300px;
+    margin: 3rem;
+}
+
+
+.aboutPlans h5{
+    font-weight: bolder;
+    font-size: 20px;
+    place-content: center;
+}
+
+.btnAboutPlans{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 0px;
+    background: #46170f;
+    color: white;
+    font-weight: 800;
+}
+
+/*Footer*/
+
+footer{
+    bottom:0;
+    margin-bottom: 2rem;
+    max-width: auto;
+    padding: 3rem 3rem 0 3rem;
+    border-top: 1px solid gray;
+}
+
+.aboutFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    font-size: 30px;
+}
+
+.social a{
+    text-decoration: none !important;
+    margin-right: 2rem;
+}
+
+
+.by{
+    text-align: center;
+}
+
+/* ALL */
+
+h3{
+    justify-content: center;
+}
